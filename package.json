@@ -10,7 +10,8 @@
     "index.js"
   ],
   "devDependencies": {
-    "test-jstransformer": "^1.0.0"
+    "mdast-yaml-config": "^0.2.1",
+    "test-jstransformer": "jstransformers/test-jstransformer#requireJsonOrFallback"
   },
   "scripts": {
     "coverage": "test-jstransformer coverage",
