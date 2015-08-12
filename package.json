@@ -1,0 +1,26 @@
+{
+  "name": "jstransformer-mdast",
+  "version": "0.0.0",
+  "description": "mdast support for JSTransformers",
+  "keywords": [
+    "jstransformer",
+    "mdast"
+  ],
+  "files": [
+    "index.js"
+  ],
+  "devDependencies": {
+    "test-jstransformer": "^1.0.0"
+  },
+  "scripts": {
+    "coverage": "test-jstransformer coverage",
+    "test": "test-jstransformer"
+  },
+  "repository": "jstransformers/jstransformer-mdast",
+  "author": "JSTransformers Team (https://github.com/orgs/jstransformers/people)",
+  "license": "MIT",
+  "dependencies": {
+    "mdast": "^1.0.0",
+    "merge-deep": "^2.0.0"
+  }
+}
