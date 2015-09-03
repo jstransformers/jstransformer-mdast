@@ -9,8 +9,8 @@ exports.outputFormat = 'markdown';
 
 exports.render = function (str, options, locals) {
   var opts = merge({}, options, locals);
-  var plugins = opts.plugins && Array.isArray(plugins) ? plugins : [plugins];
-  plugins.filter(Boolean).forEach(function (plugin) {
+  var plugins = opts.plugins && Array.isArray(opts.plugins) ? opts.plugins : [];
+  plugins.forEach(function (plugin) {
     mdast.use(plugin, opts);
   });
   return mdast.process(str, opts);
