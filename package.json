@@ -10,7 +10,7 @@
     "index.js"
   ],
   "devDependencies": {
-    "mdast-yaml-config": "^0.2.1",
+    "mdast-yaml-config": "^1.0.0",
     "test-jstransformer": "jstransformers/test-jstransformer#requireJsonOrFallback"
   },
   "scripts": {
@@ -21,7 +21,7 @@
   "author": "JSTransformers Team (https://github.com/orgs/jstransformers/people)",
   "license": "MIT",
   "dependencies": {
-    "mdast": "^1.0.0",
+    "mdast": "^2.1.0",
     "merge-deep": "^2.0.0"
   }
 }
