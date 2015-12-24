@@ -18,7 +18,7 @@
     "test": "test-jstransformer"
   },
   "dependencies": {
-    "mdast": "^2.1.0",
+    "mdast": "^3.0.0",
     "merge-deep": "^2.0.0"
   },
   "engines": {
