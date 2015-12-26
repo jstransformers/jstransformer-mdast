@@ -10,7 +10,7 @@
     "index.js"
   ],
   "devDependencies": {
-    "mdast-yaml-config": "^1.0.0",
+    "mdast-yaml-config": "^2.0.0",
     "test-jstransformer": "^1.0.0"
   },
   "scripts": {
