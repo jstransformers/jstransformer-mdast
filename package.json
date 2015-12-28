@@ -1,4 +1,9 @@
 {
+  "dependencies": {
+    "extend-shallow": "^2.0.1",
+    "remark": "^3.0.1",
+    "remark-html": "^2.0.2"
+  },
   "name": "jstransformer-remark",
   "version": "2.0.0",
   "description": "Remark support for JSTransformers",
@@ -16,11 +21,6 @@
   "scripts": {
     "coverage": "test-jstransformer coverage",
     "test": "test-jstransformer"
-  },
-  "dependencies": {
-    "extend-shallow": "^2.0.1",
-    "remark": "^3.0.1",
-    "remark-html": "^2.0.2"
   },
   "engines": {
     "node": ">=0.10.36"
