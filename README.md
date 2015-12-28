@@ -1,22 +1,22 @@
-# jstransformer-mdast
+# jstransformer-remark
 
-[mdast](https://github.com/wooorm/mdast) support for [JSTransformers](http://github.com/jstransformers).
+[Remark](http://npm.im/remark) support for [JSTransformers](http://github.com/jstransformers).
 
-[![Build Status](https://img.shields.io/travis/jstransformers/jstransformer-mdast/master.svg)](https://travis-ci.org/jstransformers/jstransformer-mdast)
-[![Coverage Status](https://img.shields.io/coveralls/jstransformers/jstransformer-mdast/master.svg)](https://coveralls.io/r/jstransformers/jstransformer-mdast?branch=master)
-[![Dependency Status](https://img.shields.io/david/jstransformers/jstransformer-mdast/master.svg)](http://david-dm.org/jstransformers/jstransformer-mdast)
-[![NPM version](https://img.shields.io/npm/v/jstransformer-mdast.svg)](https://www.npmjs.org/package/jstransformer-mdast)
+[![Build Status](https://img.shields.io/travis/jstransformers/jstransformer-remark/master.svg)](https://travis-ci.org/jstransformers/jstransformer-remark)
+[![Coverage Status](https://img.shields.io/coveralls/jstransformers/jstransformer-remark/master.svg)](https://coveralls.io/r/jstransformers/jstransformer-remark?branch=master)
+[![Dependency Status](https://img.shields.io/david/jstransformers/jstransformer-remark/master.svg)](http://david-dm.org/jstransformers/jstransformer-remark)
+[![NPM version](https://img.shields.io/npm/v/jstransformer-remark.svg)](https://www.npmjs.org/package/jstransformer-remark)
 
 ## Installation
 
-    npm install jstransformer-mdast
+    npm install jstransformer-remark
 
 ## API
 
 ```js
-var mdast = require('jstransformer')(require('jstransformer-mdast'));
+var remark = require('jstransformer')(require('jstransformer-remark'));
 
-mdast.render('Some *emphasis*, **strongness**, and `code`').body
+remark.render('Some *emphasis*, **strongness**, and `code`').body
 //=> 'Some _emphasis_, **strongness**, and `code`'
 ```
 
