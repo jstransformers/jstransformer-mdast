@@ -1,17 +1,20 @@
 'use strict';
 
-var mdast = require('mdast')();
-var merge = require('merge-deep');
+var remark = require('remark');
+var html = require('remark-html');
+var extend = require('extend-shallow');
 
-exports.name = 'mdast';
-exports.inputFormats = ['markdown', 'md', 'mdast'];
-exports.outputFormat = 'markdown';
+exports.name = 'remark';
+exports.inputFormats = ['markdown', 'md', 'remark'];
+exports.outputFormat = 'html';
 
 exports.render = function (str, options, locals) {
-  var opts = merge({}, options, locals);
-  var plugins = opts.plugins && Array.isArray(opts.plugins) ? opts.plugins : [];
+  var processor = remark();
+  var opts = extend({}, options, locals);
+  var plugins = (opts.plugins && Array.isArray(opts.plugins)) ? opts.plugins : [];
+  plugins.push(html);
   plugins.forEach(function (plugin) {
-    mdast.use(plugin, opts);
+    processor.use(plugin);
   });
-  return mdast.process(str, opts);
+  return processor.process(str, opts);
 };

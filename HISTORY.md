@@ -1,5 +1,9 @@
 # Changelog
 
+## v2.0.0: 2015-12-28
+
+- Updated to `remark@^3.0.0`
+
 ## v1.0.0: 2015-10-25
 
 - Updated Boilerplate

@@ -1,7 +1,12 @@
 {
-  "name": "jstransformer-mdast",
-  "version": "1.0.0",
-  "description": "mdast support for JSTransformers",
+  "dependencies": {
+    "extend-shallow": "^2.0.1",
+    "remark": "^3.0.1",
+    "remark-html": "^2.0.2"
+  },
+  "name": "jstransformer-remark",
+  "version": "2.0.0",
+  "description": "Remark support for JSTransformers",
   "keywords": [
     "jstransformer",
     "mdast"
@@ -10,16 +15,12 @@
     "index.js"
   ],
   "devDependencies": {
-    "mdast-yaml-config": "^1.0.0",
+    "remark-yaml-config": "^2.0.2",
     "test-jstransformer": "^1.0.0"
   },
   "scripts": {
     "coverage": "test-jstransformer coverage",
     "test": "test-jstransformer"
-  },
-  "dependencies": {
-    "mdast": "^2.1.0",
-    "merge-deep": "^2.0.0"
   },
   "engines": {
     "node": ">=0.10.36"
