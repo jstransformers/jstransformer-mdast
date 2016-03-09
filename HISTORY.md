@@ -1,5 +1,9 @@
 # Changelog
 
+## v4.0.0: 2016-03-09
+
+- Updated to `remark@^4.0.0`
+
 ## v2.0.0: 2015-12-28
 
 - Updated to `remark@^3.0.0`
