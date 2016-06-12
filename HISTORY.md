@@ -3,6 +3,7 @@
 ## v5.0.0: 2016-06-10
 
 - Updated to `remark@^5.0.0`
+- Updated Boilerplate
 
 ## v4.0.0: 2016-03-09
 
