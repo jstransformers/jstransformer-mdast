@@ -16,5 +16,5 @@ exports.render = function (str, options, locals) {
   plugins.forEach(function (plugin) {
     processor.use(plugin);
   });
-  return processor.process(str, opts);
+  return processor.process(str, opts).contents;
 };
