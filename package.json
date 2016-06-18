@@ -2,7 +2,7 @@
   "dependencies": {
     "extend-shallow": "^2.0.1",
     "remark": "^5.0.0",
-    "remark-html": "^3.0.0"
+    "remark-html": "^4.0.0"
   },
   "name": "jstransformer-remark",
   "version": "5.0.0",
