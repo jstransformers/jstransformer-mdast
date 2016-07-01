@@ -1,5 +1,9 @@
 # Changelog
 
+## v5.1.0: 2016-07-01
+
+- Updated to `remark-html@^4.0.0`
+
 ## v5.0.0: 2016-06-10
 
 - Updated to `remark@^5.0.0`
