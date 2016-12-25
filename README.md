@@ -3,7 +3,7 @@
 [Remark](http://npm.im/remark) support for [JSTransformers](http://github.com/jstransformers).
 
 [![Build Status](https://img.shields.io/travis/jstransformers/jstransformer-remark/master.svg)](https://travis-ci.org/jstransformers/jstransformer-remark)
-[![Coverage Status](https://img.shields.io/coveralls/jstransformers/jstransformer-remark/master.svg)](https://coveralls.io/r/jstransformers/jstransformer-remark?branch=master)
+[![Coverage Status](https://img.shields.io/codecov/c/github/jstransformers/jstransformer-remark/master.svg)](https://codecov.io/gh/jstransformers/jstransformer-remark)
 [![Dependency Status](https://img.shields.io/david/jstransformers/jstransformer-remark/master.svg)](http://david-dm.org/jstransformers/jstransformer-remark)
 [![NPM version](https://img.shields.io/npm/v/jstransformer-remark.svg)](https://www.npmjs.org/package/jstransformer-remark)
 
