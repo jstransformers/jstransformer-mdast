@@ -1,5 +1,7 @@
 # jstransformer-remark
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/jstransformers/jstransformer-remark.svg)](https://greenkeeper.io/)
+
 [Remark](http://npm.im/remark) support for [JSTransformers](http://github.com/jstransformers).
 
 [![Build Status](https://img.shields.io/travis/jstransformers/jstransformer-remark/master.svg)](https://travis-ci.org/jstransformers/jstransformer-remark)
