@@ -16,7 +16,7 @@
   "devDependencies": {
     "remark-yaml-config": "^3.0.0",
     "test-jstransformer": "^1.0.0",
-    "xo": "^0.17.1"
+    "xo": "*"
   },
   "scripts": {
     "coverage": "test-jstransformer coverage",
