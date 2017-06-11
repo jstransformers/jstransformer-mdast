@@ -1,5 +1,10 @@
 # Changelog
 
+## v7.0.0: 2017-06-11
+
+- Updated to `remark@^7.0.1`
+- Adds `renderAsync()`
+
 ## v5.1.0: 2016-07-01
 
 - Updated to `remark-html@^4.0.0`
