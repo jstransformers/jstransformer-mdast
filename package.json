@@ -1,11 +1,11 @@
 {
   "dependencies": {
     "extend-shallow": "^2.0.1",
-    "remark": "^6.0.0",
-    "remark-html": "^5.0.0"
+    "remark": "^7.0.1",
+    "remark-html": "^6.0.0"
   },
   "name": "jstransformer-remark",
-  "version": "5.1.0",
+  "version": "7.0.0",
   "description": "Remark support for JSTransformers",
   "keywords": [
     "jstransformer"
@@ -14,7 +14,7 @@
     "index.js"
   ],
   "devDependencies": {
-    "remark-yaml-config": "^3.0.0",
+    "remark-yaml-config": "^4.0.0",
     "test-jstransformer": "^1.0.0",
     "xo": "*"
   },

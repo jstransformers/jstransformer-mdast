@@ -8,7 +8,7 @@ exports.name = 'remark'
 exports.inputFormats = ['markdown', 'md', 'remark']
 exports.outputFormat = 'html'
 
-exports.render = function (str, options, locals) {
+function prepareRemark(options, locals) {
   const processor = remark()
   const opts = extend({}, options, locals)
   const plugins = (opts.plugins && Array.isArray(opts.plugins)) ? opts.plugins : []
@@ -16,5 +16,21 @@ exports.render = function (str, options, locals) {
   plugins.forEach(plugin => {
     processor.use(plugin)
   })
-  return processor.process(str, opts).contents
+  return processor
+}
+
+exports.render = function (str, options, locals) {
+  return prepareRemark(options, locals).processSync(str).toString()
+}
+
+exports.renderAsync = function (str, options, locals) {
+  return new Promise((resolve, reject) => {
+    prepareRemark(options, locals)
+      .process(str, (err, file) => {
+        if (err) {
+          return reject(err)
+        }
+        resolve(file.toString())
+      })
+  })
 }
