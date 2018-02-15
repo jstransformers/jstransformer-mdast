@@ -15,7 +15,7 @@
 ## API
 
 ```js
-var remark = require('jstransformer')(require('jstransformer-remark'));
+var remark = require('jstransformer')(require('jstransformer-remark'))
 
 remark.render('Some *emphasis*, **strongness**, and `code`').body
 //=> '<p>Some <em>emphasis</em>, <strong>strongness</strong>, and <pre>code</pre></p>'
