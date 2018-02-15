@@ -1,8 +1,8 @@
 {
   "dependencies": {
-    "extend-shallow": "^2.0.1",
-    "remark": "^7.0.1",
-    "remark-html": "^6.0.0"
+    "extend-shallow": "^3.0.2",
+    "remark": "^9.0.0",
+    "remark-html": "^7.0.0"
   },
   "name": "jstransformer-remark",
   "version": "7.0.0",
@@ -14,6 +14,7 @@
     "index.js"
   ],
   "devDependencies": {
+    "remark-frontmatter": "^1.2.0",
     "remark-yaml-config": "^4.0.0",
     "test-jstransformer": "^1.0.0",
     "xo": "*"

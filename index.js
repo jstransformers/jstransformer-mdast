@@ -13,9 +13,15 @@ function prepareRemark(options, locals) {
   const opts = extend({}, options, locals)
   const plugins = (opts.plugins && Array.isArray(opts.plugins)) ? opts.plugins : []
   plugins.push(html)
-  plugins.forEach(plugin => {
-    processor.use(plugin)
-  })
+  for (const plugin of plugins) {
+    if (plugin) {
+      if (typeof plugin === 'string' || plugin instanceof String) {
+        processor.use(require(plugin))
+      } else {
+        processor.use(plugin)
+      }
+    }
+  }
   return processor
 }
 
