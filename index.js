@@ -22,6 +22,7 @@ function prepareRemark(options, locals) {
       }
     }
   }
+
   return processor
 }
 
@@ -36,6 +37,7 @@ exports.renderAsync = function (str, options, locals) {
         if (err) {
           return reject(err)
         }
+
         resolve(file.toString())
       })
   })
