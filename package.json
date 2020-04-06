@@ -14,7 +14,7 @@
     "index.js"
   ],
   "devDependencies": {
-    "remark-frontmatter": "^1.2.0",
+    "remark-frontmatter": "^2.0.0",
     "remark-yaml-config": "^4.0.0",
     "test-jstransformer": "^1.0.0",
     "xo": "*"
