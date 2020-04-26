@@ -5,7 +5,7 @@
 [![Build Status](https://img.shields.io/travis/jstransformers/jstransformer-remark/master.svg)](https://travis-ci.org/jstransformers/jstransformer-remark)
 [![Coverage Status](https://img.shields.io/codecov/c/github/jstransformers/jstransformer-remark/master.svg)](https://codecov.io/gh/jstransformers/jstransformer-remark)
 [![Dependency Status](https://img.shields.io/david/jstransformers/jstransformer-remark/master.svg)](http://david-dm.org/jstransformers/jstransformer-remark)
-[![Greenkeeper badge](https://badges.greenkeeper.io/jstransformers/jstransformer-remark.svg)](https://greenkeeper.io/)
+
 [![NPM version](https://img.shields.io/npm/v/jstransformer-remark.svg)](https://www.npmjs.org/package/jstransformer-remark)
 
 ## Installation
